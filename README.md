@@ -16,7 +16,7 @@
 4) В файл добавить список слов, которые будут выбираться случайным образом.
 Структура `sowpods.txt` может быть примерно такой:
 
-[id]:https://github.com/EDU-DevMan/writing_documentation/image/exmpl.jpg
+[id]:https://github.com/EDU-DevMan/writing_documentation/blob/main/image/exmpl.jpg
 
 Минимальное допустимое количество слов в файле `sowpods.txt` - 1
 
@@ -37,38 +37,38 @@
 При исчерпании всех попыток, и не угаданном слове, Игрок считается проигравшим.
 Игроку будет сообщено, что он проиграл и выведено Слово, которое требовалось угадать:
 
-[id]:https://github.com/EDU-DevMan/writing_documentation/image/lose.jpg
+[id]:https://github.com/EDU-DevMan/writing_documentation/blob/main/image/lose.jpg
 
 В случае, если Игрок смог угадать все буквы, Игрок получит уведомление о победе в игре:  
 
-[id]:https://github.com/EDU-DevMan/writing_documentation/image/win_1.jpg
+[id]:https://github.com/EDU-DevMan/writing_documentation/blob/main/image/win_1.jpg
 
 ### Функция print_game
 
 Игрок получает уведомление об угаданной букве и ее позиции в слове. 
 Так же Игроку выводится список неверно введенных букв:
 
-[id]:https://github.com/EDU-DevMan/writing_documentation/image/let_1.jpg
+[id]:https://github.com/EDU-DevMan/writing_documentation/blob/main/image/let_1.jpg
 
 ### Функция get_letter
 
 При повторном ввод той же буквы, Игрок получит уведомление:
 
-[id]:https://github.com/EDU-DevMan/writing_documentation/image/let_2.jpg
+[id]:https://github.com/EDU-DevMan/writing_documentation/blob/main/image/let_2.jpg
 
 , количество попыток при этом не уменьшится!
 
 Игрок всегда знает сколько у него осталось попыток:
 
-[id]:https://github.com/EDU-DevMan/writing_documentation/image/let_3.jpg
+[id]:https://github.com/EDU-DevMan/writing_documentation/blob/main/image/let_3.jpg
 
 Если пользователь вводит пустое значение ``' '``
 
-[id]:https://github.com/EDU-DevMan/writing_documentation/image/null.jpg
+[id]:(https://github.com/EDU-DevMan/writing_documentation/blob/main/image/null.jpg)
 
 , то он получает уведомление:
 
-[id]:https://github.com/EDU-DevMan/writing_documentation/image/let_4.jpg
+[id]:https://github.com/EDU-DevMan/writing_documentation/blob/main/image/let_4.jpg
 
 ### Функция get_rand_word
 
