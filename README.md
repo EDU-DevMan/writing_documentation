@@ -16,7 +16,7 @@
 4) В файл добавить список слов, которые будут выбираться случайным образом.
 Структура `sowpods.txt` может быть примерно такой:
 
-[id]:/image/exmpl.JPG
+![alt text](https://github.com/ivan32rus/EDU-DevMan/blob/main/image/exmpl.JPG?raw=true)
 
 Минимальное допустимое количество слов в файле `sowpods.txt` - 1
 
