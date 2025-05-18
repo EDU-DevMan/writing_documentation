@@ -37,38 +37,38 @@
 При исчерпании всех попыток, и не угаданном слове, Игрок считается проигравшим.
 Игроку будет сообщено, что он проиграл и выведено Слово, которое требовалось угадать:
 
-[id]:/image/lose.JPG
+![alt text](https://github.com/EDU-DevMan/writing_documentation/blob/main/image/lose.JPG?raw=true)
 
 В случае, если Игрок смог угадать все буквы, Игрок получит уведомление о победе в игре:  
 
-[id]:/image/win_1.JPG
+![alt text](https://github.com/EDU-DevMan/writing_documentation/blob/main/image/win_1.JPG?raw=true)
 
 ### Функция print_game
 
 Игрок получает уведомление об угаданной букве и ее позиции в слове. 
 Так же Игроку выводится список неверно введенных букв:
 
-[id]:/image/let_1.JPG
+![alt text](https://github.com/EDU-DevMan/writing_documentation/blob/main/image/let_1.JPG?raw=true)
 
 ### Функция get_letter
 
 При повторном ввод той же буквы, Игрок получит уведомление:
 
-[id]:/image/let_2.JPG
+![alt text](https://github.com/EDU-DevMan/writing_documentation/blob/main/image/let_2.JPG?raw=true)
 
 , количество попыток при этом не уменьшится!
 
 Игрок всегда знает сколько у него осталось попыток:
 
-[id]:/image/let_3.JPG
+![alt text](https://github.com/EDU-DevMan/writing_documentation/blob/main/image/let_3.JPG?raw=true)
 
 Если пользователь вводит пустое значение ``' '``
 
-[id]:image/null.JPG
+![alt text](https://github.com/EDU-DevMan/writing_documentation/blob/main/image/null.JPG?raw=true)
 
 , то он получает уведомление:
 
-[id]:/image/let_4.JPG
+![alt text](https://github.com/EDU-DevMan/writing_documentation/blob/main/image/let_4.JPG?raw=true)
 
 ### Функция get_rand_word
 
